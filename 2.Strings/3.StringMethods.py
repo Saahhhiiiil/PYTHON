@@ -48,6 +48,12 @@ print("name string ends with hero :",name.endswith("hero"))
 print(name.endswith("hero",4,15)) #it is also used to check value in between the string by providing start and end index positions
 print("\n")
 
+# startswith() returns true if the string starts with the given value , otherwise false
+name = "sahil is a hero !!!"
+print("name string starts with sahil :",name.startswith("sahil"))
+print("name string starts with hero :",name.startswith("hero"))
+print("\n")
+
 # find() method searches for the first occurance of given value and return the index of the given value and if it is not present it will return -1
 name = ("He's name is sahil kumar and sahil is a good hero")
 print("the index of first occurance of \"is \" is :",name.find("is"))
@@ -84,9 +90,46 @@ name = "Sahil"
 print("is all letters in name is in lower case :",name.islower())
 print("\n")
 
+#isupper() returns true if all the letter in the given string is in uppercase , otherwise false
+name = "SAHIL KUMAR HERO"
+print("is all the cases in the string is in uppercase :",name.isupper())
+
+name = "sahil kumar HERO"
+print("is all the cases in the string is in uppercase :",name.isupper())
+print("\n")
+
 #isprintable() returns true if the string is printable , otherwise false
 name = "sahil is a good boy"
 print("is the string printable :",name.isprintable())
 
 name = "sahil is a good boy \n"
 print("is the string printable :",name.isprintable())
+print("\n")
+
+# isspace() method returns true if string only contains white spaces , otherwise false
+name = "   " #by spacebar
+print("name consists white spaces :",name.isspace())
+
+name = "        " # by tab button
+print("name cosists white spacesn :",name.isspace())
+
+name = "sahil is hero"
+print("name cosists white spacesn :",name.isspace())
+print("\n")
+
+# istitle() method returns true is first letter of each word in string is uppercase , otherwise false
+name = "Sahil Is Hero"
+print("each first letter of string is capital or not:",name.istitle())
+
+name = "sahil Is hero"
+print("each first letter of string is capital or not:",name.istitle())
+print("\n")
+
+#swapcase() converts uppercase into lowercase and lowercase into uppercase
+name = "Sahil Is Hero"
+print("before swapping :",name)
+print("after swapping :",name.swapcase())
+
+# title() converts first letter of each word into uppercase and the other into lowercase
+name = "sahil iS hero"
+print("using title method :",name.title())
