@@ -1,5 +1,5 @@
 print("PROGRAM 1")
-a = input() #input ()is use dto take input from a user
+a = input() #input ()is used to take input from a user
 print(a)
 
 print("PROGRAM 2")
