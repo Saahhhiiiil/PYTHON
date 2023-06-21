@@ -45,7 +45,7 @@ for k in range (1 , 100) :
     print(k+1)
 print("\n")
 
-#use of 3 numbers in renge function
+#use of 3 numbers in range function
 print("PROGRAM 6 : USE OF 3 PARAMETER IN RANGE FUNCTION")
-for i in range(1 , 10 , 2) : #the third paramter in the range function is the setep function in which the first number skips the times the third number is
+for i in range(1 , 10 , 2) : #the third paramter in the range function is the step function in which the first number skips the times the third number is
     print(i)

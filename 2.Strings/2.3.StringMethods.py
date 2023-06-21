@@ -40,7 +40,7 @@ print("No. of a in name1 is :",name1.count("a"))
 print("no. of sahil in name1 is :",name2.count("sahil"))
 print("\n")
 
-# endswith() provides boolean data type ehere we can check whether a string is ends with a given value. true if yes and false if no
+# endswith() provides boolean data type where we can check whether a string is ends with a given value. true if yes and false if no
 name = "sahil is a hero !!!"
 print("name string ends with !!! :",name.endswith("!!!"))
 print("name string ends with hero :",name.endswith("hero"))

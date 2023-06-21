@@ -1,4 +1,4 @@
-a = 5 #nteger data type
+a = 5 #integer data type
 print("a : ",a)
 
 b = 4
